@@ -1,0 +1,95 @@
+body {
+  background-color: #008080;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.start-bar {
+  padding: 2px;
+  box-shadow: inset 1px 0 #fff;
+  display: block;
+  background-color: silver;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #4e4e4e;
+  position: fixed;
+  z-index: 99999;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.start-button-wrapper {
+  float: left;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 2px 6px 3px;
+  background-color: silver;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  box-shadow: inset 1px 1px #dfdfdf, 1px 0 #000, 0 1px #000, 1px 1px #000;
+  min-width: 59px;
+  margin-right: 6px;
+  color: #000;
+}
+
+.start-button {
+  background-image: url(images/start-button.png);
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 14px;
+}
+
+#start-bar-timer {
+  color: black;
+  margin-left: auto;
+  width: 76px;
+}
+
+.start-bar {
+  display: flex;
+}
+
+#quick-access {
+  margin-left: 10px;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  gap: 5px;
+}
+
+.window {
+  width: 500px;
+  margin-left: calc(50vw - 250px);
+  font-size: 16px;
+  margin-top: 100px;
+}
+
+.function-button {
+  display: flex;
+  cursor: pointer;
+}
+
+.function-button img {
+  width: 28px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button span {
+  font-size: 16px;
+  font-family: "Pixelify Sans", sans-serif;
+  color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+}
