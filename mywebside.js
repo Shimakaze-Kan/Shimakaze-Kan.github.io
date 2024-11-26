@@ -1,4 +1,4 @@
-window.onload = function () {
+$(function () {
   function updateClock() {
     const timerElement = document.getElementById("start-bar-timer");
     const windowTimeInputElement = document.getElementById(
@@ -134,4 +134,4 @@ window.onload = function () {
       element.style.display = "none";
     }
   });
-};
+});
