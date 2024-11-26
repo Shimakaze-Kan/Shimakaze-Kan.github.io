@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <script src="mywebside.js"></script>
+    <script src="jquery.js"></script>
     <title>Wiktor Sokół - Shimakaze-Kan</title>
   </head>
   <body>
@@ -49,6 +50,23 @@
         </section>
       </div>
     </div>
+
+    <div class="window" id="timer-window">
+      <div class="title-bar">
+        <div class="title-bar-text">Date/Time Properties</div>
+        <div class="title-bar-controls">
+          <button aria-label="Help"></button>
+          <button id="close-time-window" aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <canvas id="clockCanvas" width="300" height="300"></canvas>
+        <div id="timeoutput-wrapper">
+          <input id="time-window-timeoutput" type="text" />
+        </div>
+      </div>
+    </div>
+
     <div class="start-bar">
       <div
         title="Start Menu"
@@ -64,7 +82,7 @@
       </div>
       <input
         id="start-bar-timer"
-        disabled=""
+        readonly="readonly"
         type="text"
         value="Windows Green"
       />

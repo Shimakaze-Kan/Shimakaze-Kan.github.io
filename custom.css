@@ -93,3 +93,26 @@ button span {
   margin-bottom: auto;
   margin-left: 10px;
 }
+
+#clockCanvas {
+  display: block;
+  margin: 20px auto;
+  background-color: #c0c0c0;
+}
+
+#timeoutput-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#time-window-timeoutput {
+  width: 80px;
+  pointer-events: none;
+}
+
+#timer-window {
+  position: absolute;
+  right: 0;
+  bottom: 27px;
+  display: none;
+}
