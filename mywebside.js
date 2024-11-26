@@ -1,4 +1,5 @@
 $(function () {
+  document.getElementById("timer-window").style.display = "none";
   function updateClock() {
     const timerElement = document.getElementById("start-bar-timer");
     const windowTimeInputElement = document.getElementById(
@@ -128,7 +129,7 @@ $(function () {
 
   $("#close-time-window").click(function () {
     const element = document.getElementById("timer-window");
-    if (element.style.display === "none") {
+    if (element.style.display !== "block") {
       element.style.display = "block";
     } else {
       element.style.display = "none";

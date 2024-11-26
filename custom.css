@@ -50,6 +50,7 @@ body {
   color: black;
   margin-left: auto;
   width: 76px;
+  cursor: pointer;
 }
 
 .start-bar {
@@ -114,5 +115,4 @@ button span {
   position: absolute;
   right: 0;
   bottom: 27px;
-  display: none;
 }
